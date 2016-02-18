@@ -69,6 +69,6 @@ setup(
         '': ['*.txt', '*.json', 'resources/*.txt', 'resources/*.json']
         },
     scripts = [ "mwcp-tool.py", "mwcp-client.py", "mwcp-server.py", "mwcp-test.py" ],
-    extra_require = {'recommended': ['pefile', 'yara', 'pyCrypto', 'pydasm']
+    extras_require = {'recommended': ['pefile', 'yara', 'pyCrypto', 'pydasm']
     },
 )
